@@ -1,0 +1,168 @@
+
+* {
+  box-sizing:content-box;
+  margin: 1px;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+
+  line-height: 1.2;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.site-imagelogo{
+  position: sticky;
+margin-right: 0%;
+  border-radius: 3cm;
+  padding:0px;
+  width: 60px;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  background-color: #e09635;
+  color: white;
+  padding: 1px 0;
+
+}
+
+
+.logo{
+  display :flex;
+  gap:20px;
+  justify-content: center;
+  position:relative;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-name {
+  font-family:cursive;
+  text-align: left;
+  color: #140202;
+  margin-left: 0%;
+  padding: 0%;
+  font-size: 50px;
+}
+
+.navbar .nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .nav-list a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;;
+}
+
+.navbar .nav-list a:hover {
+  color: #00bcd4;
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 60px 0;
+  background-color: #f8e0ca;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h2 {
+  font-size: 52px;
+  font-family:'Times New Roman', Times, serif;
+  margin-bottom: 15px;
+}
+
+.hero-text p{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+.testimonials-section {
+  padding: 40px 0;
+  background-color: #fcc5a0;
+}
+
+.testimonials-section h2 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.testimonials-list {
+  list-style-type:square;
+  padding-left: 4px;
+  max-width: 700px;
+  margin: 0 ;
+}
+
+.testimonials-list li {
+  margin-bottom: 1px;
+}
+
+.site-footer {
+  background-color: #e09635;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 15px;
+}
+
+@media (max-width: 700px) {
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar .nav-list {
+    flex-direction: column;
+    gap: 1px;
+    margin-top: 5px;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text, .hero-image {
+    width: 100%;
+  }
+
+  .hero-text h2 {
+    font-size: 30px;
+  }
+}
