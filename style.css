@@ -7,7 +7,6 @@
 
 body {
   font-family: Arial, sans-serif;
-
   line-height: 1.2;
   color: #333;
 }
@@ -17,9 +16,10 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .site-imagelogo{
   position: sticky;
-margin-right: 0%;
+  margin-right: 0%;
   border-radius: 3cm;
   padding:0px;
   width: 60px;
@@ -73,7 +73,6 @@ margin-right: 0%;
   color: #00bcd4;
 }
 
-/* Hero Section */
 .hero-section {
   padding: 60px 0;
   background-color: #f8e0ca;
@@ -81,8 +80,7 @@ margin-right: 0%;
 
 .hero-container {
   display: flex;
-  align-items: center;
-
+  align-items: center;  
   flex-wrap: wrap;
 }
 
